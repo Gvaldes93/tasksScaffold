@@ -1,14 +1,14 @@
 package info.germanvaldesdev.demo.scaffoltasks.tasks;
 
-public class SyncEmployeesTask extends Task<SyncEmployeesTask> {
+public class SyncEmployeesTask extends Task {
 
-    private int numberOfEmployessProcessed = 10;
+    private int numberOfEmployeesProcessed = 100;
 
-    public int getNumberOfEmployessProcessed() {
-        return numberOfEmployessProcessed;
+    public int getNumberOfEmployeesProcessed() {
+        return numberOfEmployeesProcessed;
     }
 
-    public void setNumberOfEmployessProcessed(int numberOfEmployessProcessed) {
-        this.numberOfEmployessProcessed = numberOfEmployessProcessed;
+    public void setNumberOfEmployeesProcessed(int numberOfEmployeesProcessed) {
+        this.numberOfEmployeesProcessed = numberOfEmployeesProcessed;
     }
 }

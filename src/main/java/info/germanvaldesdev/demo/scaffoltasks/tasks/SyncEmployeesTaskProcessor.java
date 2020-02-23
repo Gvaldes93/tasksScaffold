@@ -8,7 +8,7 @@ public class SyncEmployeesTaskProcessor implements TaskProcessor<SyncEmployeesTa
 
     @Override
     public boolean processRequest(String request, SyncEmployeesTask task) {
-        System.out.println("processed sync employees , total :" + task.getNumberOfEmployessProcessed());
+        System.out.println("processed sync employees , total :" + task.getNumberOfEmployeesProcessed());
         return false;
     }
 

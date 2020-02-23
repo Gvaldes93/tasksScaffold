@@ -14,7 +14,7 @@ public class Application {
 
         java.util.Arrays.asList(new SyncEmployeesTask(), new SyncPayrollItemsTask(), new PayEmployeesTask())
                 .stream()
-                .forEach(task -> task.processRequest(""));
+                .forEach(task -> task.processRequest("HEy"));
     }
 
 }

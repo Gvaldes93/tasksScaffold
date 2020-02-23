@@ -1,6 +1,6 @@
 package info.germanvaldesdev.demo.scaffoltasks.tasks;
 
-public class SyncPayrollItemsTask extends Task<SyncPayrollItemsTask> {
+public class SyncPayrollItemsTask extends Task {
 
     private String state = "Created";
 

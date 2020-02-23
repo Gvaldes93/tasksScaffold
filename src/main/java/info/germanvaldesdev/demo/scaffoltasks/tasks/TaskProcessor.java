@@ -1,8 +1,8 @@
 package info.germanvaldesdev.demo.scaffoltasks.tasks;
 
-public interface TaskProcessor<T> {
+public interface TaskProcessor<Task> {
 
-    boolean processRequest(String request, T task);
+    boolean processRequest(String request, Task task);
 
-    boolean processResponse(String request, T task);
+    boolean processResponse(String request, Task task);
 }
